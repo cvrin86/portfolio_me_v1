@@ -1,0 +1,26 @@
+.privacy {
+    padding: 120px 20px;
+
+
+    h1 {
+        padding: 30px 0;
+        color: $mint-green;
+        border-bottom: 1px dotted $mint-green;
+
+
+    }
+
+    section {
+
+        padding: 30px 10px;
+
+        ol {
+            li {
+                list-style-type: circle;
+            }
+        }
+    }
+
+
+
+}

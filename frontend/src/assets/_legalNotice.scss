@@ -1,0 +1,45 @@
+.legal-notice {
+
+    padding: 100px 40px;
+
+    h1 {
+        color: $mint-green;
+        border-bottom: 1px dotted $mint-green;
+    }
+
+    p {
+        padding: 10px 0;
+    }
+
+    section {
+        padding: 10px 0;
+
+
+
+        strong {
+            color: $mint-green;
+            text-transform: uppercase;
+
+        }
+
+        a {
+            color: whitesmoke;
+            text-decoration: underline;
+
+        }
+
+        ul {
+
+            li {
+
+                list-style-type: disc;
+            }
+        }
+
+
+
+        h2 {
+            padding: 20px;
+        }
+    }
+}

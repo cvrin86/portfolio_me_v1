@@ -1,0 +1,87 @@
+.footer {
+
+    position: relative;
+    width: 100%;
+    height: 170px;
+    /* Ajustez la hauteur selon vos besoins */
+    background: linear-gradient(to top, #b5c6d6, #627495, #132546);
+    /* Dégradé de couleurs */
+
+    .logo-footer {
+        @include logo();
+        position: fixed;
+        z-index: 2000;
+        right: 40px;
+
+
+        bottom: 120px;
+
+        float: right;
+        padding: 10px;
+    }
+
+}
+
+.footer-container {
+    background-color: $green;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    /* Ajustez la hauteur selon vos besoins */
+
+    /* Couleur de l'arrière-plan, ou utilisez un autre dégradé */
+    border-radius: 50% 50% 0 0 / 100px;
+    /* Ajustez pour obtenir la courbe souhaitée */
+
+    text-align: center;
+    color: white;
+
+
+    padding-top: 15px;
+
+    .copyright {
+        margin-top: -10px;
+    }
+
+    .footer-links {
+
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        img {
+            width: 50px;
+
+        }
+
+
+
+    }
+
+    .links-pages {
+        padding: 10px 0;
+
+        a {
+            color: $mint-green;
+            font-size: 1.2rem;
+            font-weight: 700;
+
+            &:hover {
+                color: $white;
+                text-decoration: underline;
+            }
+        }
+
+
+
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .footer {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,92 @@
+// Modal Overlay (modal backdrop)
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); // Fond semi-transparent
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    .modal {
+        background: $grayDark;
+        padding: 20px;
+        border-radius: 8px;
+        width: 80%;
+        max-width: 800px;
+        height: 500px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+
+        .modal-content {
+            .modal-close {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                cursor: pointer;
+
+                svg {
+                    width: 20px;
+                    height: 20px;
+                    fill: #333; // Couleur de l'icône de fermeture
+                }
+            }
+
+            .card-modal-title {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+            }
+
+            .card-modal-content {
+                margin-top: 20px;
+
+                .card-modal-context,
+                .card-modal-challenge {
+                    margin-bottom: 20px;
+
+                    .technology-list {
+                        list-style-type: none;
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        .technology-item {
+
+                            margin-right: 15px;
+                        }
+                    }
+
+                    h4 {
+                        font-size: 1.2rem;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        line-height: 1.6;
+                    }
+                }
+
+                .card-modal-links {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .card-modal__link {
+                        padding: 10px 20px;
+                        background-color: $blueNight;
+                        color: white;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        text-align: center;
+                        transition: background-color 0.3s ease;
+
+                        &:hover {
+                            background-color: #700000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

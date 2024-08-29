@@ -1,0 +1,97 @@
+.carousel {
+    width: 100%;
+    /* Définir la largeur du carrousel */
+    background-color: $grayDark;
+
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    /* Centrer le carrousel horizontalement */
+    text-align: center;
+    /* Centrer le texte */
+    position: relative;
+    /* Position relative pour positionner les boutons de navigation absolus */
+
+}
+
+.carousel-inner {
+    width: 80%;
+    margin: auto;
+    transition: transform 0.9s ease;
+    /* Ajouter une transition pour les transformations (utile pour les animations) */
+
+    h2 {
+        margin: 20px 0;
+    }
+}
+
+.carousel-inner.animating {
+    transform: scale(0.2);
+    /* Ajouter une légère réduction de l'échelle pendant l'animation */
+}
+
+.skills {
+    display: flex;
+    /* Utiliser le flexbox pour les compétences */
+    flex-wrap: wrap;
+    /* Permettre aux compétences de se répartir sur plusieurs lignes si nécessaire */
+    justify-content: center;
+    gap: 70px;
+    color: white;
+
+    /* Centrer les compétences horizontalement */
+}
+
+// .skill {
+//     margin: 30px;
+//     /* Ajouter une marge autour de chaque compétence */
+//     text-align: center;
+//     /* Centrer le texte de chaque compétence */
+
+// }
+
+.skill img {
+    width: 80px;
+    /* Définir la largeur des icônes des compétences */
+    height: 70px;
+    /* Définir la hauteur des icônes des compétences */
+}
+
+.carousel-nav {
+    cursor: pointer;
+    /* Changer le curseur en pointeur pour indiquer que c'est cliquable */
+    padding: 5px 10px;
+    /* Ajouter du padding aux boutons */
+    margin: 0 5px;
+    /* Ajouter une marge autour des boutons */
+    position: absolute;
+    /* Position absolue pour les boutons */
+    top: 50%;
+    /* Placer les boutons au milieu verticalement */
+    transform: translateY(-50%);
+    /* Centrer les boutons verticalement */
+    background: rgba(255, 255, 255, 0.8);
+    /* Ajouter un fond semi-transparent aux boutons */
+    border: none;
+    /* Enlever les bordures des boutons */
+}
+
+.carousel-nav.left {
+    left: 10px;
+
+    &:hover {
+        height: 50%;
+    }
+
+    /* Placer le bouton de gauche à 10px du bord gauche */
+}
+
+.carousel-nav.right {
+    right: 10px;
+
+    &:hover {
+        height: 50%;
+    }
+
+    /* Placer le bouton de droite à 10px du bord droit */
+}

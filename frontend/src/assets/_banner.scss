@@ -1,0 +1,108 @@
+@import './mixins';
+
+.banner {
+
+
+    // position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-image: url('/images/profile_me.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+
+    border-bottom: 2px solid $grayDark;
+
+
+
+
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(39, 50, 62, 0.6); // Ajouter un overlay foncé avec transparence
+        z-index: 1;
+        margin-top: 60px;
+    }
+
+    .banner-content {
+        position: relative;
+        z-index: 200;
+        // text-align: center;
+        color: $mint-green;
+        margin-left: 50px;
+        font-size: 1.5rem;
+        font-weight: 600;
+
+        @media screen and (max-width:900px) {
+            font-size: 1.2rem;
+
+        }
+
+
+        h1 {
+
+
+            // padding: 10px;
+            color: white;
+            text-align: left;
+
+
+
+        }
+
+        h1::after {
+
+            opacity: 0;
+        }
+
+
+
+
+        .project-btn {
+            @include button();
+            color: $blueNight;
+            // background-color: whitesmoke;
+            // font-size: 1.3rem;
+            // font-weight: 700;
+            // margin: 30px 0;
+        }
+    }
+
+    .banner-image {
+        img {
+            width: 100%;
+
+
+        }
+    }
+}
+
+
+
+.banner-welcome {
+    margin-top: 5px;
+    font-size: 1.5rem;
+    // word-spacing: 3px;
+    font-weight: 900;
+
+    /* Ombre de texte pour le détacher de l'arrière-plan */
+    text-shadow: 9px 2px 9px rgba(196, 241, 72, 0.9);
+    // text-transform: uppercase;
+
+
+    color: $mint-green;
+
+    @media screen and (max-width:900px) {
+        font-size: 1.2rem;
+
+    }
+
+}

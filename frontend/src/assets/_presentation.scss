@@ -1,0 +1,38 @@
+.presentation-main {
+    @media screen and (min-width:901px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+    text-align: center;
+    border-bottom: 2px solid $grayDark;
+
+    h1 {
+        padding: 20px 0;
+    }
+
+    .text-presentation {
+        margin: 50px;
+        text-align: left;
+    }
+
+    .image-presentation {
+        margin: 20px;
+    }
+
+    .download-btn {
+        @include button();
+
+        a {
+
+            padding: 0;
+        }
+
+
+    }
+}

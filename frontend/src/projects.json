@@ -1,0 +1,69 @@
+[
+    {
+        "title": "FRESHLY RESTAURANT",
+        "image": "/images/projects/freshly_restaurant.png",
+        "modalTitle": "Freshly Restaurant",
+        "context": "Freshly Restaurant est un projet que j'ai développé dans le cadre de ma formation en Développement Web à 3W Academy. À partir d'une maquette fournie, j'ai intégré les versions mobile et desktop d'un site pour un restaurant, en utilisant des animations CSS. Ce projet m'a permis de mettre en pratique mes compétences en HTML et CSS. Le résultat est un site web moderne qui valorise les plats proposés par l'entreprise. ",
+        "technologies": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "title": " ArchiDesign",
+        "image": "/images/projects/archidesign.png",
+        "modalTitle": "ArchiDesign",
+        "context": "ArchiDesign est un projet que j'ai développé dans le cadre de ma formation de Developpeur Web à 3W Academy. À partir d'une maquette fournie, j'ai intégré les versions mobile et desktop d'un site vitrine dédié à la vente de meubles pour la maison, en utilisant des animations CSS. Ce projet m'a permis de mettre en pratique mes compétences en HTML et CSS. Le résultat final est un site web moderne qui met en valeur les créations proposées par l'entreprise",
+        "technologies": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "title": " Hello World",
+        "image": "/images/projects/hello_world.png",
+        "modalTitle": "Hello World",
+        "context": "Hello World est un projet que j'ai développé dans le cadre de ma formation de Developpeur Web à 3W Academy. À partir d'une maquette fournie, j'ai intégré les versions mobile et desktop d'un blog consacré aux voyages à travers le monde, en utilisant des animations CSS. Ce projet m'a permis de mettre en pratique mes compétences en HTML et CSS. Le résultat final est un site web moderne qui raconte les voyages effectués et fait découvrir de nouveaux lieux à visiter.",
+        "technologies": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "title": " Hi Tech",
+        "image": "/images/projects/hi-tech.png",
+        "modalTitle": "Hi Tech",
+        "context": "HiTech est un projet que j'ai développé dans le cadre de ma formation de Developpeur Web à 3W Academy. À partir d'une maquette fournie, j'ai intégré les versions mobile et desktop d'un site statique dédié à la vente de matériel Hi-Tech, en utilisant des animations CSS et Bootstrap pour la mise en forme. Ce projet m'a permis de mettre en pratique mes compétences en HTML, CSS et Bootstrap. Le résultat final est un site web moderne qui valorise les produits de l'entreprise .",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "BOOTSTRAP"
+        ]
+    },
+    {
+        "title": " MaLibrarieEnLigne",
+        "image": "/images/projects/ma_librarie.png",
+        "modalTitle": "MaLibrarieEnLigne",
+        "context": "MaLibrarieEnLigne est un projet réalisé en fin de formation pour obtenir ma certification de Développeur Web à 3W Academy. Il s'agit d'un site fictif et responsive, dédié à la vente de livres en ligne. Ce projet m'a permis de mettre en pratique mes compétences en JavaScript et Sass. Le résultat final est un site web e-commerce moderne et responsive qui met en valeur les produits de l'entreprise",
+        "technologies": [
+            "REACT JS",
+            "SASS",
+            "NODE JS",
+            "EXPRESS",
+            "MONGO DB"
+        ]
+    },
+    {
+        "title": " My Portfolio",
+        "image": "/images/projects/portfolio.png",
+        "modalTitle": "Portfolio - Site Web Développeur",
+        "context": " cris-vrince.fr est mon portfolio personnel en ligne.  J'ai choisi de faire mon portfolio en React et en Sass pour continuer à me former sur ces technologies. Les données sont stockées dans un fichier Json.Il s'agit d'un site Web que j'ai crée pour présenter mes compétences en développement web, mes projets précédents et mes réalisations. Vous y trouverez des informations sur mes compétences techniques, mon parcours professionnel, ainsi que des liens vers des projets auxquels j'ai contribué. Explorez mon portfolio pour en savoir plus sur mon travail et mes capacités en développement web.",
+        "technologies": [
+            "REACT JS",
+            "SASS",
+            "NODE JS",
+            "EXPRESS",
+            "MONGO DB"
+        ]
+    }
+]

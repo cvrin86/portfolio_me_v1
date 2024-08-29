@@ -1,0 +1,68 @@
+{
+    "frontend": [
+        {
+            "name": "HTML",
+            "icon": "/icons/skils/html-icon.png"
+        },
+        {
+            "name": "CSS",
+            "icon": "/icons/skils/css-icon.png"
+        },
+        {
+            "name": "Sass",
+            "icon": "/icons/skils/sass-icon.png"
+        },
+        {
+            "name": "Bootstrap",
+            "icon": "/icons/skils/bootstrap-icon.png"
+        },
+        {
+            "name": "JavaScript",
+            "icon": "/icons/skils/js-icon.png"
+        },
+        {
+            "name": "React",
+            "icon": "/icons/skils/react-icon.png"
+        }
+    ],
+    "backend": [
+        {
+            "name": "Node.js",
+            "icon": "/icons/skils/node-icon.png"
+        },
+        {
+            "name": "Express.js",
+            "icon": "/icons/skils/express-icon.png"
+        },
+        {
+            "name": "MongoDB",
+            "icon": "/icons/skils/mongodb-icon.png"
+        },
+        {
+            "name": "Mongoose",
+            "icon": "/icons/skils/mongoose-icon.png"
+        }
+    ],
+    "other": [
+        {
+            "name": "Git",
+            "icon": "/icons/skils/git-icon.png"
+        },
+        {
+            "name": "GitHub",
+            "icon": "/icons/skils/github-icon.png"
+        },
+        {
+            "name": "VS Code",
+            "icon": "/icons/skils/vscode-icon.png"
+        },
+        {
+            "name": "Trello",
+            "icon": "/icons/skils/trello-icon.png"
+        },
+        {
+            "name": "Figma",
+            "icon": "/icons/skils/figma-icon.png"
+        }
+    ]
+}

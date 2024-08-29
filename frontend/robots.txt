@@ -1,0 +1,17 @@
+# Ce fichier robots.txt contrôle le comportement des robots d'indexation sur votre site web.
+
+# ----- Définition des règles pour tous les robots -----
+User-agent: *
+# Utilise '*' pour appliquer les règles à tous les robots (User-agents).
+
+# Bloquer l'accès aux répertoires privés et temporaires
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /admin/
+
+# Permettre l'accès au répertoire public
+Allow: /public/
+
+# Spécifier l'emplacement du fichier sitemap pour faciliter l'indexation
+Sitemap: https://www.cristinavr-portfolio.com/sitemap.xml
+# Indique l'URL du fichier sitemap où les robots peuvent trouver la structure complète du site.

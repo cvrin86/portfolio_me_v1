@@ -1,0 +1,66 @@
+body {
+
+    font-family: "Source Code Pro", monospace;
+    line-height: 2.5;
+    background-color: $green-dark;
+    color: $white;
+
+}
+
+.container {
+    // max-width: 1200px;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+
+}
+
+h1,
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    padding: 20px 0;
+    margin: 10px 0;
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+
+    position: relative;
+
+
+
+    @media screen and (max-width:800px) {
+        font-size: 1.3rem;
+
+    }
+}
+
+h1::after,
+h2::after {
+    content: "";
+    /* Nécessaire pour le pseudo-élément */
+    display: block;
+    /* Affiche le pseudo-élément comme un bloc */
+    width: 5%;
+    /* Largeur de la bordure inférieure (ajustez comme nécessaire) */
+    height: 2px;
+    /* Hauteur de la bordure */
+    background-color: $mint-green;
+    /* Couleur de la bordure */
+    position: absolute;
+    /* Positionne le pseudo-élément */
+    left: 50%;
+    /* Centre horizontalement le pseudo-élément */
+    bottom: 0;
+    /* Positionne le pseudo-élément en bas de l'élément */
+    transform: translateX(-50%);
+    /* Ajuste le pseudo-élément pour le centrer */
+    margin-bottom: 15px;
+    text-align: center;
+}
