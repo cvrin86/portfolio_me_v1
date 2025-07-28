@@ -29,12 +29,13 @@ const Modal = ({ project, closeModal }) => {
 
                     </div>
 
-                    {/* <div className="card-modal-right-colon">
-                            <div className="card-modal-links">
-                                <a className="card-modal__link button" href={project.githubLink} target="_blank" rel="noreferrer">Lien GitHub</a>
-                                <a className="card-modal__link button" href={project.siteLink} target="_blank" rel="noreferrer">Lien du site</a>
-                            </div>
-                        </div> */}
+
+                    <div className="card-modal-links">
+                        <a className="card-modal__link" href={project.link} target="_blank" rel="noreferrer">
+                            Lien GitHub
+                        </a>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -1,14 +1,15 @@
 body {
 
     font-family: "Source Code Pro", monospace;
-    line-height: 2.5;
+
+    line-height: 1.8;
     background-color: $green-dark;
     color: $white;
 
 }
 
 .container {
-    // max-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 

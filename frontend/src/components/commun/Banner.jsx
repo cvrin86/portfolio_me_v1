@@ -11,7 +11,8 @@ const Banner = () => {
 
                     <TypingEffect text="Bienvenue sur mon portfolio ! Découvrez mes projets et réalisations ." speed={150} pause={2000} />
                     <h1>Cristina Vrinceanu</h1>
-                    <p>Développeuse web Fullstack</p>
+                    <hr />
+                    <p>Développeuse web Fullstack (React et NodeJs)</p>
                     <button className='project-btn' onClick={() => scrollToSection('projects')}>
                         Mes projets
                     </button>

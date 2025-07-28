@@ -36,13 +36,13 @@
 
     text-align: center;
     color: white;
-
-
-    padding-top: 15px;
+    padding: 10px;
 
     .copyright {
-        margin-top: -10px;
+        font-size: 0.9rem;
     }
+
+
 
     .footer-links {
 
@@ -52,7 +52,7 @@
         flex-wrap: wrap;
 
         img {
-            width: 50px;
+            width: 40px;
 
         }
 
@@ -61,11 +61,11 @@
     }
 
     .links-pages {
-        padding: 10px 0;
+        padding: 20px 0;
 
         a {
             color: $mint-green;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: 700;
 
             &:hover {
@@ -83,5 +83,18 @@
 @media screen and (max-width:700px) {
     .footer {
         font-size: 0.7rem;
+
+        .copyright {
+            font-size: 0.7rem;
+        }
+
+        .links-pages {
+
+
+            a {
+                font-size: 0.9rem;
+            }
+        }
+
     }
 }

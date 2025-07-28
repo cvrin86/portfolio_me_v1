@@ -17,7 +17,7 @@ const Footer = () => {
             <footer className='footer-container'>
                 <ul className='footer-links' role='list'>
                     <li>
-                        <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/C2023-creation" target="_blank" rel="noopener noreferrer">
                             <img src={github} alt="GitHub" />
                         </a>
                     </li>

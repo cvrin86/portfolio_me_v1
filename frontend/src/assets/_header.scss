@@ -3,7 +3,7 @@
     width: 100%;
     background-color: $green;
     color: $white;
-    padding: 10px 30px;
+    padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-bottom: 2px solid $grayDark;
     z-index: 1000;
@@ -39,19 +39,23 @@
         .dropdown-btn {
             display: none; // Masquer le bouton par défaut
             border: none;
-            font-size: 1.2rem;
+            font-size: 1.7rem;
             cursor: pointer;
             padding: 10px;
-            border-radius: 4px;
+            // border-radius: 4px;
             margin-left: 20px;
+            background-color: transparent;
+            color: $white;
+            // color: $green;
 
-            &:hover {
-                background-color: rgba(255, 255, 255, 0.1);
-            }
+            // &:hover {
+
+            // }
         }
 
         .menu {
             display: flex;
+
 
             ul {
                 display: flex;
@@ -63,6 +67,7 @@
                     list-style: none;
 
                     a {
+                        position: relative;
                         color: $mint-green;
                         text-decoration: none;
                         text-transform: uppercase;
@@ -70,10 +75,28 @@
                         border-radius: 4px;
                         transition: 0.9s all;
 
-                        &:hover {
-                            color: $white;
-                            font-weight: 900;
+                        &::after {
+                            content: ''; // Nécessaire pour créer le pseudo-élément
+                            position: absolute; // Permet de positionner le pseudo-élément en dessous du texte
+                            bottom: 0; // Aligne le pseudo-élément à gauche
+                            left: 0; // Place le pseudo-élément juste en dessous du texte
+                            width: 100%; // Prend toute la largeur du texte
+                            height: 2px; // Épaisseur de la ligne sous le texte
+                            background-color: $mint-green; // Couleur de la ligne
+                            transform: scaleX(0); // Commence avec une largeur de 0
+                            transform-origin: center; // L'animation commence à gauche
+                            transition: transform 0.3s ease; // Transition pour l'apparition de la ligne
                         }
+
+                        &:hover {
+                            color: $white; // Change la couleur du texte au survol
+
+                            &::after {
+                                transform: scaleX(0.7); // Passe à la pleine largeur lors du survol
+                                background-color: $white; // Couleur de la ligne après le hover
+                            }
+                        }
+
 
                         &.active {
                             color: $white;

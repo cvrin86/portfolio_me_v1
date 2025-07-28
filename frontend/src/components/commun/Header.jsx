@@ -16,7 +16,7 @@ const Header = () => {
     };
 
     return (
-        <header className='header'>
+        <header className='header mb-5'>
             <div className="container-header">
                 {/* Ajout de la classe 'hidden' conditionnellement */}
                 <div className={`logo-header ${isOpen ? 'hidden' : ''}`}>

@@ -7,7 +7,8 @@
         "technologies": [
             "HTML",
             "CSS"
-        ]
+        ],
+        "link": " https://c2023-creation.github.io/Freshly_Restaurant/"
     },
     {
         "title": " ArchiDesign",
@@ -17,7 +18,8 @@
         "technologies": [
             "HTML",
             "CSS"
-        ]
+        ],
+        "link": " https://c2023-creation.github.io/ArchiDesign/"
     },
     {
         "title": " Hello World",
@@ -27,7 +29,8 @@
         "technologies": [
             "HTML",
             "CSS"
-        ]
+        ],
+        "link": "https://c2023-creation.github.io/HelloWorld/"
     },
     {
         "title": " Hi Tech",
@@ -38,7 +41,8 @@
             "HTML",
             "CSS",
             "BOOTSTRAP"
-        ]
+        ],
+        "link": "https://c2023-creation.github.io/HiTech/"
     },
     {
         "title": " MaLibrarieEnLigne",
@@ -64,6 +68,7 @@
             "NODE JS",
             "EXPRESS",
             "MONGO DB"
-        ]
+        ],
+        "link": "https://www.cris-vrancea.fr"
     }
 ]
